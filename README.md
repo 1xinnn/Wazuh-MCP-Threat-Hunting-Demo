@@ -18,13 +18,23 @@ This project demonstrates how to use the **Wazuh MCP Server** to integrate Wazuh
 ### Scenario: Detecting Network Scanning
 I performed an Nmap scan against the Wazuh agent. Instead of checking the dashboard, I asked the AI Agent to identify threats.
 
-#### 1. The Query (對話查詢)
-Checking if any scanning activity was detected from a specific IP.
+#### 1. The Query & Threat Hunting Process (對話查詢過程)
+I interacted with the Wazuh MCP agent to analyze the security status. The agent successfully identified the agents and retrieved relevant logs.
 
-![Chat Screenshot](chat_screenshot.png)
-*(Upload your chat screenshot and name it chat_screenshot.png)*
+![Chat 1](hw1.png)
+*Checking agent status and connection.*
 
-> **Observation:** The Agent successfully queried the Wazuh API and returned the specific alert regarding "ET SCAN Nmap".
+![Chat 2](hw1-2.png)
+*Getting agent summary details.*
+
+![Chat 3](hw1-3.png)
+*Investigating specific security events.*
+
+![Chat 4](hw1-3-1.png)
+*Drilling down into specific alert details.*
+
+![Chat 5](hw1-3-2.png)
+*Final analysis and summary.*
 
 #### 2. Verification in Wazuh (Wazuh 後台驗證)
 Verifying the data in the Wazuh Dashboard.
