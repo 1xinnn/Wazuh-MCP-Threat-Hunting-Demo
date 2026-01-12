@@ -22,10 +22,10 @@ I performed an Nmap scan against the Wazuh agent. Instead of checking the dashbo
 I interacted with the Wazuh MCP agent to analyze the security status. The agent successfully identified the agents and retrieved relevant logs.
 
 ![Chat 1](hw1.png)
-*Checking agent status and connection.*
+*Checking connection.*
 
 ![Chat 2](hw1-2.png)
-*Getting agent summary details.*
+*Getting agent status and agent summary details.*
 
 ![Chat 3](hw1-3.png)
 *Investigating specific security events.*
@@ -40,7 +40,7 @@ I interacted with the Wazuh MCP agent to analyze the security status. The agent 
 Verifying the data in the Wazuh Dashboard.
 
 ![Wazuh Dashboard](wazuh_dashboard.png)
-*(Upload your wazuh dashboard screenshot and name it wazuh_dashboard.png)*
+
 
 ## Conclusion
 Using MCP protocol allows for rapid incident triage. The AI agent can effectively filter noise and present relevant security alerts from Wazuh.
